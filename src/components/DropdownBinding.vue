@@ -2,7 +2,7 @@
     <v-combobox
         v-model="binding.value"
         :items="items"
-        :label="binding.title"
+        :label="binding.fieldTitle ? binding.fieldTitle : binding.title"
         :multiple="binding.isMultiple == true"
       ></v-combobox>
 </template>

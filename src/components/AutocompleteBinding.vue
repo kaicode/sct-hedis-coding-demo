@@ -1,7 +1,7 @@
 <template>
     <v-autocomplete
         v-model="binding.value"
-        :label="binding.title"
+        :label="binding.fieldTitle ? binding.fieldTitle : binding.title"
         :items="items"
         :loading="loading"
         :search-input.sync="search"

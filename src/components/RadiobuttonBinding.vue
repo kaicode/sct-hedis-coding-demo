@@ -1,5 +1,5 @@
 <template>
-  <v-radio-group v-model="binding.value" :label="binding.title">
+  <v-radio-group v-model="binding.value" :label="binding.fieldTitle ? binding.fieldTitle : binding.title">
     <v-radio
       v-for="item in items"
       :key="item"

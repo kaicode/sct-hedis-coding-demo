@@ -106,7 +106,7 @@ export default {
       }
     }
     Vue.prototype.$snowstormBase = 'https://snowstorm.ihtsdotools.org/snowstorm/snomed-ct';
-    Vue.prototype.$codeSystemVersion = '2021-07-31';
+    Vue.prototype.$codeSystemVersion = '2022-01-31';
     Vue.prototype.$snowstormBranch = `MAIN/${this.$codeSystemVersion}`;
     this.codeSystemVersionDisplay = this.$codeSystemVersion;
   },
